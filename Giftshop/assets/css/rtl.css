@@ -1,0 +1,8 @@
+[dir="rtl"] .nav-link::after { transform-origin: right; }
+[dir="rtl"] .drawer { inset-inline-start: auto; inset-inline-end: 0; }
+[dir="rtl"] .drawer.is-open { inset-inline-start: auto; inset-inline-end: 0; }
+[dir="rtl"] .toast { inset-inline-start: 24px; inset-inline-end: auto; transform: translateX(-120%); }
+[dir="rtl"] .toast.is-visible { transform: translateX(0); }
+[dir="rtl"] .directional-icon { transform: scaleX(-1); }
+[dir="rtl"] .carousel-track { direction: rtl; }
+[dir="rtl"] .hero-copy, [dir="rtl"] .section-heading { text-align: start; }

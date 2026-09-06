@@ -1,0 +1,159 @@
+.corporate-page {
+  --corporate-bg: #fbf8f3;
+  --corporate-soft: #f5f0ea;
+  --corporate-card: #fffdf9;
+  --corporate-ink: #302628;
+  --corporate-muted: #756a67;
+  --corporate-line: #e9e0d8;
+  --corporate-accent: #c75c3c;
+  background: var(--corporate-bg);
+  color: var(--corporate-ink);
+}
+.corporate-page .announcement-bar { display: none; }
+.corporate-page .header { background: rgb(251 248 243 / .94); border-bottom: 1px solid var(--corporate-line); }
+.corporate-page .nav-link { font-size: .68rem; font-weight: 500; }
+.corporate-page .nav-link[href="corporate-gifting.html"] { color: var(--corporate-accent); }
+.corporate-page .corp-hero { padding: 52px 0 72px; }
+.corporate-page .corp-hero-grid { display: grid; gap: 44px; align-items: center; }
+.corporate-page .corp-breadcrumbs { margin-bottom: 25px; color: #9e928c; font-size: .57rem; letter-spacing: .12em; text-transform: uppercase; }
+.corporate-page .corp-breadcrumbs span { margin-inline: 8px; color: #c75c3c; }
+.corporate-page .corp-hero-copy .eyebrow,
+.corporate-page .corp-section .eyebrow { color: var(--corporate-accent); font-size: .56rem; letter-spacing: .16em; text-transform: uppercase; }
+.corporate-page h1,
+.corporate-page h2 { font-family: "Fraunces", serif; font-weight: 500; letter-spacing: -.035em; }
+.corporate-page .corp-hero h1 { max-width: 560px; margin-top: 18px; font-size: clamp(3.1rem, 7vw, 5.8rem); line-height: .95; }
+.corporate-page .corp-hero h1 em,
+.corporate-page .corp-contact h2 em { color: var(--corporate-accent); font-style: italic; font-weight: 500; }
+.corporate-page .corp-hero-copy > p { max-width: 530px; margin-top: 24px; color: var(--corporate-muted); font-size: .88rem; line-height: 1.65; }
+.corporate-page .corp-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; margin-top: 25px; }
+.corporate-page .corp-actions .button { background: var(--corporate-accent); border-radius: 999px; font-size: .75rem; }
+.corporate-page .corp-link { color: var(--corporate-ink); font-size: .7rem; font-weight: 700; }
+.corporate-page .corp-trust { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 46px; padding-top: 16px; border-top: 1px solid var(--corporate-line); color: #887b75; font-size: .58rem; }
+.corporate-page .corp-trust strong { color: var(--corporate-accent); }
+.corporate-page .corp-brief { padding: 20px; border-radius: 16px; background: var(--corporate-soft); box-shadow: 0 14px 35px rgb(75 49 37 / .08); }
+.corporate-page .corp-brief-top { display: flex; justify-content: space-between; gap: 12px; color: var(--corporate-muted); font-size: .57rem; }
+.corporate-page .corp-brief-pill { padding: 5px 8px; border-radius: 999px; background: white; color: var(--corporate-ink); font-size: .52rem; }
+.corporate-page .corp-brief h3 { margin-top: 26px; color: var(--corporate-accent); font: 600 .6rem "DM Sans", sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.corporate-page .corp-brief-title { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-top: 7px; color: var(--corporate-muted); font: 1rem "Fraunces", serif; }
+.corporate-page .corp-brief-title span { padding: 4px 7px; border-radius: 999px; background: white; color: var(--corporate-muted); font: .52rem "DM Sans", sans-serif; }
+.corporate-page .corp-brief-list { display: grid; gap: 8px; margin-top: 20px; }
+.corporate-page .corp-brief-list div { display: flex; align-items: center; gap: 9px; padding: 10px; border-radius: 8px; background: white; color: var(--corporate-muted); font-size: .58rem; }
+.corporate-page .corp-brief-list b { color: #e0b22b; font-size: .8rem; }
+.corporate-page .corp-brief-foot { display: flex; justify-content: space-between; gap: 12px; margin-top: 18px; color: #9b8f88; font-size: .5rem; }
+.corporate-page .corp-brief-foot strong { color: var(--corporate-accent); }
+.corporate-page .corp-section { padding: 76px 0; border-top: 1px solid var(--corporate-line); }
+.corporate-page .corp-section-soft { background: #f8f3ee; }
+.corporate-page .corp-section h2 { max-width: 620px; margin-top: 12px; font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: .98; }
+.corporate-page .corp-section-intro { max-width: 640px; margin-top: 18px; color: var(--corporate-muted); font-size: .8rem; line-height: 1.6; }
+.corporate-page .corp-stats { display: grid; gap: 14px; margin-top: 42px; }
+.corporate-page .corp-stat { min-height: 155px; padding: 22px 18px; border: 1px solid var(--corporate-line); border-radius: 10px; background: var(--corporate-card); }
+.corporate-page .corp-stat strong { display: block; color: var(--corporate-accent); font: 2rem "Fraunces", serif; }
+.corporate-page .corp-stat h3 { margin-top: 10px; font-size: .75rem; }
+.corporate-page .corp-stat p { margin-top: 7px; color: var(--corporate-muted); font-size: .6rem; line-height: 1.5; }
+.corporate-page .corp-offer-heading { display: flex; justify-content: space-between; gap: 20px; align-items: end; }
+.corporate-page .corp-offer-heading p { max-width: 340px; color: var(--corporate-muted); font-size: .6rem; }
+.corporate-page .corp-offers { display: grid; gap: 12px; margin-top: 28px; }
+.corporate-page .corp-offer { padding: 10px; border: 1px solid var(--corporate-line); border-radius: 10px; background: var(--corporate-card); }
+.corporate-page .corp-offer-icon { display: grid; place-items: center; min-height: 92px; border-radius: 7px; background: var(--corporate-soft); color: #78a53d; font-size: 1.4rem; }
+.corporate-page .corp-offer:nth-child(2) .corp-offer-icon { color: #d9a3b0; }
+.corporate-page .corp-offer:nth-child(3) .corp-offer-icon { color: #f0bf2c; }
+.corporate-page .corp-offer:nth-child(4) .corp-offer-icon { color: #df9f2b; }
+.corporate-page .corp-offer h3 { margin-top: 12px; font: .72rem "Fraunces", serif; }
+.corporate-page .corp-offer p { margin-top: 6px; color: var(--corporate-muted); font-size: .57rem; line-height: 1.45; }
+.corporate-page .corp-contact-grid { display: grid; gap: 42px; align-items: start; }
+.corporate-page .corp-contact h2 { font-size: clamp(2.4rem, 5vw, 4rem); }
+.corporate-page .corp-checks { display: grid; gap: 9px; margin-top: 26px; color: var(--corporate-muted); font-size: .62rem; }
+.corporate-page .corp-checks span::before { content: "✓"; display: inline-grid; place-items: center; width: 15px; height: 15px; margin-inline-end: 8px; border-radius: 50%; background: #f4d9cb; color: var(--corporate-accent); }
+.corporate-page .corp-note { margin-top: 27px; padding: 15px; border-radius: 10px; background: var(--corporate-soft); color: var(--corporate-muted); font-size: .57rem; }
+.corporate-page .corp-form { display: grid; gap: 13px; padding: 24px; border: 1px solid var(--corporate-line); border-radius: 16px; background: var(--corporate-card); box-shadow: 0 12px 28px rgb(75 49 37 / .07); }
+.corporate-page .corp-form label { display: grid; gap: 6px; color: var(--corporate-ink); font-size: .6rem; }
+.corporate-page .corp-form input,
+.corporate-page .corp-form select,
+.corporate-page .corp-form textarea { width: 100%; padding: 11px 12px; border: 1px solid var(--corporate-line); border-radius: 7px; background: #fff; color: var(--corporate-ink); font: .68rem "DM Sans", sans-serif; }
+.corporate-page .corp-form textarea { min-height: 88px; resize: vertical; }
+.corporate-page .corp-form .button { justify-self: start; border-radius: 999px; background: var(--corporate-accent); font-size: .68rem; }
+.corporate-page .corp-testimonial { padding: 72px 0; text-align: center; }
+.corporate-page .corp-testimonial blockquote { max-width: 670px; margin: 0 auto; color: var(--corporate-muted); font: italic 1.15rem/1.5 "Fraunces", serif; }
+.corporate-page .corp-testimonial cite { display: block; margin-top: 16px; color: var(--corporate-ink); font: .6rem "DM Sans", sans-serif; }
+.corporate-page .corp-logos { display: flex; flex-wrap: wrap; justify-content: center; gap: 35px; margin-top: 46px; color: #9d918b; font: .57rem "Fraunces", serif; letter-spacing: .12em; }
+.corporate-page .corp-footer { padding: 38px 0 20px; background: #171313; color: #fff8f2; }
+.corporate-page .corp-footer-grid { display: grid; gap: 28px; }
+.corporate-page .corp-footer h3 { margin-bottom: 12px; color: #d87552; font-size: .6rem; text-transform: uppercase; }
+.corporate-page .corp-footer p, .corporate-page .corp-footer li { color: #c8b8af; font-size: .62rem; line-height: 1.55; }
+.corporate-page .corp-footer ul { display: grid; gap: 5px; list-style: none; padding: 0; }
+.corporate-page .corp-footer-bottom { display: flex; justify-content: space-between; gap: 14px; margin-top: 36px; padding-top: 15px; border-top: 1px solid #3b302d; color: #a69790; font-size: .55rem; }
+
+/* Keep the corporate page on the same type scale as the shared storefront. */
+.corporate-page .announcement-bar { display: flex; }
+.corporate-page .nav-link { font-size: .84rem; font-weight: 700; }
+.corporate-page .corp-breadcrumbs { font-size: .7rem; }
+.corporate-page .corp-hero-copy .eyebrow,
+.corporate-page .corp-section .eyebrow { font-size: .75rem; }
+.corporate-page .corp-hero-copy > p { font-size: 1rem; }
+.corporate-page .corp-actions .button { font-size: .82rem; }
+.corporate-page .corp-link { font-size: .82rem; }
+.corporate-page .corp-trust { font-size: .78rem; }
+.corporate-page .corp-brief-top { font-size: .75rem; }
+.corporate-page .corp-brief-pill { font-size: .68rem; }
+.corporate-page .corp-brief h3 { font-size: .75rem; }
+.corporate-page .corp-brief-list div { font-size: .78rem; }
+.corporate-page .corp-brief-foot { font-size: .7rem; }
+.corporate-page .corp-section-intro { font-size: .95rem; }
+.corporate-page .corp-stat h3 { font-size: .95rem; }
+.corporate-page .corp-stat p { font-size: .82rem; }
+.corporate-page .corp-offer-heading p { font-size: .82rem; }
+.corporate-page .corp-offer h3 { font-size: .95rem; }
+.corporate-page .corp-offer p { font-size: .78rem; }
+.corporate-page .corp-checks { font-size: .82rem; }
+.corporate-page .corp-note { font-size: .78rem; }
+.corporate-page .corp-form label { font-size: .8rem; }
+.corporate-page .corp-form input,
+.corporate-page .corp-form select,
+.corporate-page .corp-form textarea { font-size: .82rem; }
+.corporate-page .corp-form .button { font-size: .82rem; }
+.corporate-page .corp-testimonial cite { font-size: .75rem; }
+.corporate-page .corp-logos { font-size: .7rem; }
+.corporate-page .corp-footer h3 { font-size: .75rem; }
+.corporate-page .corp-footer p,
+.corporate-page .corp-footer li { font-size: .78rem; }
+.corporate-page .corp-footer-bottom { font-size: .7rem; }
+
+html[data-theme="dark"] .corporate-page {
+  --corporate-bg: var(--color-background);
+  --corporate-soft: var(--color-surface-soft);
+  --corporate-card: var(--color-surface);
+  --corporate-ink: var(--color-text);
+  --corporate-muted: var(--color-text-muted);
+  --corporate-line: var(--color-border);
+  --corporate-accent: var(--color-primary);
+}
+html[data-theme="dark"] .corporate-page .header { background: rgb(32 28 34 / .96); color: var(--color-text); border-color: var(--color-border); }
+html[data-theme="dark"] .corporate-page .desktop-nav,
+html[data-theme="dark"] .corporate-page .nav-actions,
+html[data-theme="dark"] .corporate-page .nav-link,
+html[data-theme="dark"] .corporate-page .logo { color: var(--color-text); }
+html[data-theme="dark"] .corporate-page .corp-section-soft { background: var(--corporate-soft); }
+html[data-theme="dark"] .corporate-page .corp-brief-pill,
+html[data-theme="dark"] .corporate-page .corp-brief-title span,
+html[data-theme="dark"] .corporate-page .corp-brief-list div,
+html[data-theme="dark"] .corporate-page .corp-form input,
+html[data-theme="dark"] .corporate-page .corp-form select,
+html[data-theme="dark"] .corporate-page .corp-form textarea { background: var(--corporate-card); color: var(--corporate-ink); }
+
+@media (min-width: 640px) {
+  .corporate-page .corp-stats { grid-template-columns: repeat(3, 1fr); }
+  .corporate-page .corp-offers { grid-template-columns: repeat(4, 1fr); }
+  .corporate-page .corp-footer-grid { grid-template-columns: 1.5fr repeat(3, 1fr); }
+}
+@media (min-width: 900px) {
+  .corporate-page .corp-hero-grid { grid-template-columns: 1fr 1fr; gap: 64px; }
+  .corporate-page .corp-brief { width: 100%; max-width: 540px; min-height: 390px; margin-inline-start: auto; padding: 28px; }
+  .corporate-page .corp-brief-list { gap: 10px; margin-top: 24px; }
+  .corporate-page .corp-brief-list div { min-height: 58px; padding: 12px; }
+  .corporate-page .corp-contact-grid { grid-template-columns: .9fr 1.1fr; gap: 72px; }
+}
+@media (max-width: 639px) {
+  .corporate-page .corp-offer-heading { display: grid; gap: 12px; align-items: start; }
+  .corporate-page .corp-footer-bottom { align-items: flex-start; flex-direction: column; }
+  .corporate-page .corp-hero { padding-block: 40px 52px; }
+}
