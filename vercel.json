@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/Giftshop/assets/$1" },
+    { "src": "/pages/(.*)", "dest": "/Giftshop/pages/$1" },
+    { "src": "/", "dest": "/Giftshop/pages/index.html" },
+    { "src": "/(.*)", "dest": "/Giftshop/pages/$1" }
+  ]
+}
